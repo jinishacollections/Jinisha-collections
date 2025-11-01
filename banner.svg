@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400">
+  <rect width="100%" height="100%" fill="#050505"/>
+  <rect x="30" y="30" width="1140" height="340" fill="#0d0d0d" rx="16"/>
+  <text x="320" y="150" font-size="44" fill="#d4af37" font-family="Arial">Jinisha Collections</text>
+  <text x="320" y="200" font-size="20" fill="#e6e6e6" font-family="Arial">Aapki Pasand, Hamari Pehchan</text>
+  <text x="320" y="240" font-size="16" fill="#cfcfcf" font-family="Arial">Style, Comfort aur Value — Sab ek jagah.</text>
+</svg>

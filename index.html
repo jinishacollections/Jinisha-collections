@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="manifest" href="./manifest.json" />
+  <meta name="theme-color" content="#d4af37" />
+  <link rel="icon" href="./logo.svg" />
+  <title>Jinisha Collections</title>
+  <style>
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#000;color:#fff}
+    .header{display:flex;justify-content:space-between;align-items:center;padding:16px;border-bottom:1px solid #222}
+    .brand{display:flex;align-items:center;gap:12px}
+    .brand h1{margin:0;font-size:20px}
+    .tag{font-size:12px;color:#ccc}
+    .wa{background:#d4af37;color:#000;padding:8px 12px;border-radius:24px;text-decoration:none;font-weight:700}
+    .banner img{width:100%;height:auto;border-radius:8px}
+    .container{padding:16px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:12px}
+    .card{background:#111;padding:12px;border-radius:8px}
+    .card img{width:100%;height:160px;object-fit:cover;border-radius:6px}
+    .buy{background:#d4af37;color:#000;padding:8px 10px;border-radius:6px;text-decoration:none;font-weight:700}
+    .waBtn{background:#333;color:#fff;padding:8px 10px;border-radius:6px;text-decoration:none}
+    footer{padding:18px;text-align:center;color:#777}
+    .hero{padding:28px;text-align:center}
+    .hero h2{color:#d4af37;margin:8px 0;font-size:28px}
+    .hero p{color:#ccc;margin:6px 0}
+    .cta{margin-top:12px}
+    .cta a{margin:0 8px}
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="brand">
+      <img src="./logo.svg" alt="logo" style="width:56px;height:56px;border-radius:28px">
+      <div>
+        <h1>Jinisha Collections</h1>
+        <div class="tag">Aapki Pasand, Hamari Pehchan</div>
+      </div>
+    </div>
+    <a class="wa" href="https://wa.me/918595597807" target="_blank">Shop Now on WhatsApp</a>
+  </div>
+
+  <div class="hero">
+    <h2>Aapki Pasand, Hamari Pehchan</h2>
+    <p>Style, Comfort aur Value — Sab ek jagah.</p>
+    <div class="cta">
+      <a class="buy" href="#products">Explore Collections</a>
+      <a class="wa" href="https://wa.me/918595597807">Order on WhatsApp</a>
+    </div>
+  </div>
+
+  <div class="banner" style="padding:16px"><img src="./banner.svg" alt="banner"></div>
+
+  <div class="container">
+    <h2 style="color:#d4af37">Featured Products</h2>
+    <div class="grid" id="products"></div>
+
+    <section style="margin-top:24px;background:#0b0b0b;padding:12px;border-radius:8px">
+      <h3 style="color:#d4af37">Payment</h3>
+      <p style="color:#ccc">Pay via UPI: <strong>9971930423@kotak811</strong></p>
+      <p style="color:#ccc">Email: jinishacollections@gmail.com</p>
+    </section>
+  </div>
+
+  <footer>© 2025 Jinisha Collections</footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
